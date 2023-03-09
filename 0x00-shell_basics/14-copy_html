@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -u --exclude='*.html' --exclude='*/' ./*.html ../
+cp -u --recursive --no-clobber --update *.html .
