@@ -1,0 +1,4 @@
+#!/bin/bash
+cwd = $(pwd)
+parent=$(dirname $cwd)
+find . -maxdepth 1 -name "*.html" -type f -exec cp -n -u {} $parent \;
