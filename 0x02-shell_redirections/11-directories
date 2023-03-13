@@ -1,2 +1,2 @@
-#!/bin/basih
-find . -type d ! -pach . | wc -l
+#!/bin/bash
+find ./* -type d | wc -l
