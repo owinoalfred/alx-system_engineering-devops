@@ -1,2 +1,2 @@
 #!/bin/bash
-bc <<< "ibase=10; obase=16; $1" | tr '[:lower:]' '[:upper:]'
+printf '%X\n' $DECIMAL
