@@ -1,2 +1,2 @@
 #!/bin/bash
-printf '%X\n' $1
+bc <<< "ibase=10; obase=16; $1" | tr '[:lower:]' '[:upper:]'
